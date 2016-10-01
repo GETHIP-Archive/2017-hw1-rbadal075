@@ -27,7 +27,7 @@
 
     <div class="well row">
       <h2>Problem 2:</h2>
-      <p>You're taking 6 classes and want to figure out what your GPA would be if you get certain letter grades in each one. Your job is to implement the javascript method "problemTwo()" to find your GPA. If it is 3.0 or above, turn the div with id="box" green. Otherwise, turn it red.</p>
+      <p>You're taking 6 classes and want to figure out what your GPA would be if you get certain letter grades in each one. Your job is to implement the javascript method "problemTwo()" to find your GPA. If it is 3.0 or above, turn the div with id="box" green. Otherwise, turn it red. If you are taking an honors class. click the checkbox.</p>
       <p>Each of the letter grades corresponds with the following number of points:</p>
       <table class="table table-striped">
         <thead>
@@ -62,12 +62,13 @@
       <p>Enter each of your 6 letter grades in the input boxes below, and click "Find Your GPA" to run problemTwo() and print your GPA to the console.</p>
       <form>
         <div class="row">
-          <div class="col-md-2"><input type="text" id="grade1" class="form-control"></div>
-          <div class="col-md-2"><input type="text" id="grade2" class="form-control"></div>
-          <div class="col-md-2"><input type="text" id="grade3" class="form-control"></div>
-          <div class="col-md-2"><input type="text" id="grade4" class="form-control"></div>
-          <div class="col-md-2"><input type="text" id="grade5" class="form-control"></div>
-          <div class="col-md-2"><input type="text" id="grade6" class="form-control"></div>
+          <div class="col-md-2"><input type="text" id="grade1" class="form-control"><input type= "checkbox" id = "checkbox1" class = "form-control"</div>
+          <div class="col-md-2"><input type="text" id="grade2" class="form-control"><input type= "checkbox" id = "checkbox2" class = "form-control"</div>
+          
+          <div class="col-md-2"><input type="text" id="grade3" class="form-control"><input type= "checkbox" id = "checkbox3" class = "form-control"</div>
+          <div class="col-md-2"><input type="text" id="grade4" class="form-control"><input type= "checkbox" id = "checkbox4" class = "form-control"</div></div>
+          <div class="col-md-2"><input type="text" id="grade5" class="form-control"><input type= "checkbox" id = "checkbox5" class = "form-control"</div></div>
+          <div class="col-md-2"><input type="text" id="grade6" class="form-control"><input type= "checkbox" id = "checkbox6" class = "form-control"</div></div>
         </div>
         <button onclick="problemTwo(); return false;" class="btn btn-default">Find Your GPA</button>
       </form>
